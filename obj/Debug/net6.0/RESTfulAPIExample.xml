@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RESTfulAPIExample</name>
+    </assembly>
+    <members>
+        <member name="T:RESTfulAPIExample.Controllers.PatientController">
+            <summary>
+            Manages patient
+            </summary>
+        </member>
+        <member name="M:RESTfulAPIExample.Controllers.PatientController.Get">
+            <summary>
+            Resturns all the patients
+            </summary>
+        </member>
+        <member name="M:RESTfulAPIExample.Controllers.PatientController.Get(System.Int32)">
+            <summary>
+            Retuns a specific patient by id
+            </summary>
+            <response code="404">If the patient doesn't exist.</response>
+        </member>
+        <member name="M:RESTfulAPIExample.Controllers.PatientController.Save(RESTfulAPIExample.Patient)">
+            <summary>
+            Creates a new patient
+            </summary>
+            <response code="201">If the patient was created successfully.</response>
+            <response code="400">If One or more validation errors occurred.</response>
+        </member>
+        <member name="M:RESTfulAPIExample.Controllers.PatientController.Delete(System.Int32)">
+            <summary>
+            Deletes a specific patient
+            </summary>
+            <response code="204">If the patient was deleted successfully.</response>
+            <response code="404">If the patient was not found.</response>
+        </member>
+        <member name="M:RESTfulAPIExample.Controllers.PatientController.Update(System.Int32,RESTfulAPIExample.Patient)">
+            <summary>
+            Updates a specific patient
+            </summary>
+            <response code="204">If the patient was updated successfully.</response>
+            <response code="404">If the patient was not found.</response>
+            <response code="400">If One or more validation errors occurred.</response>
+        </member>
+    </members>
+</doc>

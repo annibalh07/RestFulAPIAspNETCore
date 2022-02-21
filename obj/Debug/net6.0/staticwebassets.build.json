@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VKWJYeejKhdXL5ahk3MDiVYOk2FSyQuGNK5qPFvHJPc=",
+  "Source": "RESTfulAPIExample",
+  "BasePath": "_content/RESTfulAPIExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
